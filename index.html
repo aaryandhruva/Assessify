@@ -338,6 +338,7 @@ tbody tr:hover td.hero-col{background:color-mix(in srgb,var(--indigo) 12%,transp
 /* ============ FOUNDER ============ */
 .founder{display:grid;grid-template-columns:.8fr 1.2fr;gap:56px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:26px;padding:48px}
 .founder-photo{aspect-ratio:1;border-radius:20px;background:var(--grad);display:grid;place-items:center;position:relative;overflow:hidden;box-shadow:var(--shadow)}
+.founder-photo img{width:100%;height:100%;object-fit:cover;object-position:center top}
 .founder-photo .ph-name{position:absolute;bottom:0;left:0;right:0;padding:20px;background:linear-gradient(transparent,rgba(0,0,0,.6));color:#fff}
 .founder-photo .ph-name b{font-family:'Space Grotesk';font-size:1.2rem;display:block}
 .founder-photo .ph-name span{font-size:.85rem;opacity:.85}
@@ -874,7 +875,7 @@ footer{border-top:1px solid var(--line);padding:64px 0 32px;background:var(--bg-
     </div>
     <div class="founder reveal">
       <div class="founder-photo">
-        <svg width="90" height="90" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="4" stroke="#fff" stroke-width="1.4" opacity=".85"/><path d="M4 21c0-4 3.5-6 8-6s8 2 8 6" stroke="#fff" stroke-width="1.4" opacity=".85" stroke-linecap="round"/></svg>
+        <img src="founder.jpg" alt="Aaryan Dhruva, Founder &amp; CEO of Assessify" loading="lazy" />
         <div class="ph-name"><b>Aaryan Dhruva</b><span>Founder &amp; CEO</span></div>
       </div>
       <div class="founder-body">
